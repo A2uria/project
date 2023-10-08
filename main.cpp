@@ -1,6 +1,10 @@
 #include <xfilesystem_abi.h>
 #define __std_fs_code_page() __std_code_page::_Utf8
-#include <__msvc_all_public_headers.hpp>
+#include <filesystem>
+#include <fstream>
+#include <map>
+#include <print>
+#include <ranges>
 
 int main(void)
 {
